@@ -82,3 +82,31 @@ nav .menu a{
     vertical-align: text-bottom;
 }
 
+#about{
+    padding-top: 130px;
+
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#skills{
+    padding-top: 130px;
+
+}
+#skill .skills-container .skill-box{
+    display: flex;
+    gap: 24px;
+    
+}
+.skill-box .skill-card{
+    padding: 30px;
+    border: 1px solid red;
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
