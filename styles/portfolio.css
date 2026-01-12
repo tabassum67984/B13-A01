@@ -31,7 +31,6 @@ header{
 nav{
     width: 71%;
     max-width: 1140px;
-    border: 1px solid red;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -104,9 +103,29 @@ nav .menu a{
 }
 .skill-box .skill-card{
     padding: 30px;
-    border: 1px solid red;
 }
 .skill-card img{
     max-width: 44px;
     margin-bottom: 30px;
+}
+#banner{
+    display: flex;
+    margin-top:28px;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+#skills{
+    padding-top: 130px;
+}
+#skills .skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.btn{
+    background-color: green;
+    border: none;
+    padding: 18px 35px;
 }
