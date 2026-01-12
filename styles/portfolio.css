@@ -20,7 +20,8 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
-
+    cursor: pointer;
+    
 }
 
 header{
@@ -49,4 +50,35 @@ nav .menu a{
     
 }
 
+#banner{
+    
+    margin-top:28px;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 15px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+
+#banner .banner-content h3{
+    color: green;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #474747;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: text-bottom;
+}
 
