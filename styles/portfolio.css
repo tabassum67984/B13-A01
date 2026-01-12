@@ -129,3 +129,7 @@ nav .menu a{
     border: none;
     padding: 18px 35px;
 }
+
+header{
+    background-color: darkblue;
+}
